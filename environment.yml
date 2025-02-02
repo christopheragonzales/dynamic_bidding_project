@@ -1,0 +1,25 @@
+name: dynamic_bid_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python >= 3.12
+  - pyspark
+  - openjdk=11
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - ipykernel
+  - jupyterlab
+  - pip
+  - pip:
+      - tqdm
+      - numpy
+      - python-dotenv
+      - fastparquet
+      - pyarrow
+      - findspark
+      - notebook
+      - faker
